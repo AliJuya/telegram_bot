@@ -1,20 +1,17 @@
-
 import json
-
 
 
 class JsonDataBase:
     def __init__(self):
         pass
 
-    
+
     def store_user_data(self, user_data):
-        return self.write_data(user_data,"./tel_bot/data.json")
+        return self.write_data(user_data, "./tel_bot/data.json")
 
 
-
-    def write_data(self, new_data, filename='./tel_bot/data.json'):
-        with open(filename,'r+') as file:
+    def write_data(self, new_data, filename="./tel_bot/data.json"):
+        with open(filename, "r+") as file:
             # First we load existing data into a dict.
             file_data = json.load(file)
 
@@ -27,6 +24,5 @@ class JsonDataBase:
             # Sets file's current position at offset.
             file.seek(0)
             # convert back to json.
-            json.dump(file_data, file, indent = 4)
+            json.dump(file_data, file, indent=4)
             return 1
-
