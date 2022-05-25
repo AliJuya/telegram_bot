@@ -18,7 +18,7 @@ channel_id = "@robotons"
 
 defaults_messages ={
     
-"start" : """Hello.
+"start" : """Hello. 🤖
 For participating in NFT Airdrop,
 please subscribe our <a href='https://t.me/robotons'>Channel</a> and <a href='https://t.me/robotons_chat'>Group</a>.
 Then send /verify to verify your subscribtion."""
@@ -28,8 +28,14 @@ Please subscribe our <a href='https://t.me/robotons'>Channel</a> and <a href='ht
 Then send /verify to verify your subscribtion again."""
 ,
 "verified_msg" : """Verified successfully.
-Please reply your wallet address to this message.
+Please send your wallet address.
 
 """
-
+, 
+"wallet_added" : """Congratulations.🎉
+I hope you win a NFT.😇
+"""
+,
+"wallet_exist":"""Wallet already added.
+I hope you win a NFT.😇"""
 }

@@ -1,4 +1,5 @@
 from telebot.apihelper import ApiTelegramException
+
 class Verifier:
 
     def __init__(self,bot):
@@ -7,7 +8,7 @@ class Verifier:
 
     def set_chat_id_dic(self,chat_id_dic):
         self.chat_id_dic = chat_id_dic
-
+        
 
     def is_subscribed(self, chat_id, user_id):
         try:

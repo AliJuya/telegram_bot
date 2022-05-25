@@ -1,0 +1,18 @@
+{
+    "user_data": [
+        {
+            "uid": "test_uid",
+            "wallet_addr": "EQ__test",
+            "status": "test_status",
+            "ref_code": "test_refcode",
+            "chance": 1
+        },
+        {
+            "uid": 5270030542,
+            "wallet_addr": "EQBgck7h45Jo0V2pMmvFghbleDcXMZTrQm9e6YJd49MAnptm",
+            "status": "verified",
+            "ref_code": "QYkn0P6iU2Gt",
+            "chance": 1
+        }
+    ]
+}
