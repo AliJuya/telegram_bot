@@ -45,7 +45,7 @@ def send_start_msg(message):
     bot.send_message(message.chat.id, defaults_messages["start"], parse_mode="HTML")
 
 
-@bot.message_handler(commands=["verify"])
+@bot.message_handler(commands=["verify","проверять"])
 def send_verification_result(message):
     if verifier.result(message.from_user.id) is True:
         bot.send_message(

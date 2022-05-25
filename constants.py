@@ -10,22 +10,50 @@ group_id = "@robotons_chat"
 channel_id = "@robotons"
 
 defaults_messages = {
-    "start": """Hello. 🤖
-For participating in NFT Airdrop,
-please subscribe our <a href='https://t.me/robotons'>Channel</a> and <a href='https://t.me/robotons_chat'>Group</a>.
-Then send /verify to verify your subscribtion."""
+    "start": """🇷🇺 🇷🇺
+Привет. 🤖 
+Чтобы принять участие в NFT Airdrop,
+пожалуйста, подпишитесь на наш <a href='https://t.me/robotons'>канал</a> и <a href='https://t.me/robotons_chat'>группу</a>
+Затем отправьте /verify для подтверждения подписки.
+
+🇬🇧 🇬🇧
+Hello. 🤖
+To participate in NFT Airdrop,
+please subscribe to our <a href='https://t.me/robotons'>Channel</a> and <a href='https://t.me/robotons_chat'>Group</a>.
+Then send /verify to verify your subscription ."""
 ,
-    "verify_error": """Verification failed.
-Please subscribe our <a href='https://t.me/robotons'>Channel</a> and <a href='https://t.me/robotons_chat'>Group</a>.
-Then send /verify to verify your subscribtion again."""
+    "verify_error": """🇷🇺 🇷🇺
+Не удалось выполнить проверку.
+Пожалуйста, подпишитесь на наш <a href='https://t.me/robotons'>канал</a> и <a href='https://t.me/robotons_chat'>группу</a>.
+Затем отправьте /verify, чтобы еще раз подтвердить подписку.
+
+🇬🇧 🇬🇧
+Verification failed.
+Please subscribe to our <a href='https://t.me/robotons'>Channel</a> and <a href='https://t.me/robotons_chat'>Group</a>.
+Then send /verify to verify your subscription  again."""
 ,
-    "verified_msg": """Verified successfully.
+    "verified_msg": """🇷🇺 🇷🇺
+Проверено успешно.🥳
+Пожалуйста, пришлите адрес вашего кошелька.
+
+🇬🇧 🇬🇧
+Verified successfully.🥳
 Please send your wallet address.
 
 """,
-    "wallet_added": """Congratulations.🎉
-I hope you win a NFT.😇
+    "wallet_added": """🇷🇺 🇷🇺
+Поздравляем.🎉
+Надеюсь, вы выиграете NFT.🎁😇
+
+🇬🇧 🇬🇧
+Congratulations.🎉
+I hope you win a NFT.🎁😇
 """,
-    "wallet_exist": """Wallet already added.
-I hope you win a NFT.😇""",
+    "wallet_exist": """🇷🇺 🇷🇺
+Кошелек уже добавлен.
+Надеюсь, вы выиграете NFT.🎁😇
+
+🇬🇧 🇬🇧
+Wallet already added.
+I hope you win a NFT.🎁😇""",
 }
