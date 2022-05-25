@@ -7,10 +7,10 @@ class JsonDataBase:
 
 
     def store_user_data(self, user_data):
-        return self.write_data(user_data, "./tel_bot/data.json")
+        return self.write_data(user_data, "./data.json")
 
 
-    def write_data(self, new_data, filename="./tel_bot/data.json"):
+    def write_data(self, new_data, filename="./data.json"):
         with open(filename, "r+") as file:
             # First we load existing data into a dict.
             file_data = json.load(file)
