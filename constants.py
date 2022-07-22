@@ -1,4 +1,4 @@
-API_KEY = "5379181484:AAEDeYA_FYgnS1J5EMhghFwRY_mrCny0kEA"
+API_KEY = "privet"
 
 
 # group_id = "-1001645411567"
